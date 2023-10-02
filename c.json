@@ -1,0 +1,54 @@
+{
+    "questions": [
+        {
+            "question": "What is the purpose of the 'printf' function in C?",
+            "choices": [
+                "Input from the user",
+                "Output to the screen",
+                "Define a variable",
+                "Conditional branching"
+            ],
+            "correct_answer": "Output to the screen"
+        },
+        {
+            "question": "Which keyword is used to declare a variable in C?",
+            "choices": [
+                "var",
+                "int",
+                "declare",
+                "variable"
+            ],
+            "correct_answer": "int"
+        },
+        {
+            "question": "In C, what is the syntax for a single-line comment?",
+            "choices": [
+                "// This is a comment",
+                "# This is a comment",
+                "/* This is a comment */",
+                "Comment: This is a comment"
+            ],
+            "correct_answer": "// This is a comment"
+        },
+        {
+            "question": "Which data type is used to store integer values in C?",
+            "choices": [
+                "float",
+                "char",
+                "double",
+                "int"
+            ],
+            "correct_answer": "int"
+        },
+        {
+            "question": "What is the purpose of the 'if' statement in C?",
+            "choices": [
+                "Looping",
+                "Defining functions",
+                "Conditional execution",
+                "Importing libraries"
+            ],
+            "correct_answer": "Conditional execution"
+        }
+    ]
+}

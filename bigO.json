@@ -1,0 +1,24 @@
+{
+    "questions": [
+        {
+            "question": "What is the time complexity of setting value at index n in an unsorted Python 3 list?",
+            "choices": ["O(2^n)", "O(1)", "O(log(n))", "O(n)", "O(nlog(n))", "O(n!)", "O(n^2)"],
+            "correct_answer": "O(1)"
+        },
+        {
+            "question": "What is the time complexity of inserting at index n on an unsorted array?",
+            "choices": ["O(2^n)", "O(1)", "O(log(n))", "O(n)", "O(nlog(n))", "O(n!)", "O(n^2)"],
+            "correct_answer": "O(n)"
+        },
+        {
+            "question": "What is the time complexity of the “push” operation onto a stack?",
+            "choices": ["O(2^n)", "O(1)", "O(log(n))", "O(n)", "O(nlog(n))", "O(n!)", "O(n^2)"],
+            "correct_answer": "O(1)"
+        },
+        {
+            "question": "What is the time complexity of accessing the nth element on an unsorted array?",
+            "choices": ["O(2^n)", "O(1)", "O(log(n))", "O(n)", "O(nlog(n))", "O(n!)", "O(n^2)"],
+            "correct_answer": "O(1)"
+        }
+    ]
+}

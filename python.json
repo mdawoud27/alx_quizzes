@@ -1,0 +1,54 @@
+{
+    "questions": [
+        {
+            "question": "What is Python's primary purpose?",
+            "choices": [
+                "Web development",
+                "Data analysis",
+                "Machine learning",
+                "General-purpose programming"
+            ],
+            "correct_answer": "General-purpose programming"
+        },
+        {
+            "question": "Which keyword is used to define a function in Python?",
+            "choices": [
+                "def",
+                "function",
+                "define",
+                "func"
+            ],
+            "correct_answer": "def"
+        },
+        {
+            "question": "What is the result of 5 + 3 in Python?",
+            "choices": [
+                "8",
+                "53",
+                "35",
+                "Syntax error"
+            ],
+            "correct_answer": "8"
+        },
+        {
+            "question": "Which Python library is commonly used for data manipulation and analysis?",
+            "choices": [
+                "NumPy",
+                "Django",
+                "Flask",
+                "PyTorch"
+            ],
+            "correct_answer": "NumPy"
+        },
+        {
+            "question": "What is the purpose of the 'if' statement in Python?",
+            "choices": [
+                "Looping",
+                "Defining functions",
+                "Conditional execution",
+                "Importing modules"
+            ],
+            "correct_answer": "Conditional execution"
+        }
+    ]
+}
