@@ -74,6 +74,7 @@ The project is implemented in Python and uses JSON files to store quiz questions
             "choices": ["Java", "C++", "Python", "Ruby"],
             "correct_answer": "Python"
         }
+        // Add more questions here
     ]
 }
 ```
