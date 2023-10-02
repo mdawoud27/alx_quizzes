@@ -50,8 +50,8 @@ class QuizBrain:
 
             while True:
                 user_ans = input(
-                    "Enter the number of your answer (e.g., 1, 2, 3, ...), 'state' to see your progress, or "
-                    "'off' to end the quiz: ").strip()
+                    "\nEnter the number of your answer (e.g., 1, 2, 3, ...)\n\t- 'state' to see your progress"
+                    "\n\t- 'off' to end the quiz\nEnter your answer: ").strip()
 
                 if user_ans.isdigit():
                     user_ans = int(user_ans)
@@ -60,7 +60,7 @@ class QuizBrain:
                         self.check_ans(user_ans, current_question["correct_answer"])
                         break  # Break the loop and proceed to the next question
                     else:
-                        print("Invalid choice. Please enter a valid number.")
+                        print("\nInvalid choice. Please enter a valid number.")
                 else:
                     if user_ans == "state":
                         print(self.state())  # Show progress
@@ -71,9 +71,7 @@ class QuizBrain:
                         self.question_number = len(self.question_list)
                         break  # End the quiz
                     else:
-                        print(
-                            "Invalid input. Please enter\n\t- The number of the correct answer,\n\t- 'state' to show "
-                            "your progress,\n\t- or 'off' to end the quiz.")
+                        print("\nInvalid input.")
 
             print()
 
@@ -107,3 +105,9 @@ class QuizBrain:
             int: The player's score.
         """
         return self.score
+    
+    def score_details(self):
+        return (f"\n\t- Total questions: {len(self.question_list)}"
+                f"\n\t- Solved question(s): {self.score}"
+                f"\n\t- Wrong answers: {self.question_number - self.get_score() - 1}")
+

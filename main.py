@@ -52,3 +52,8 @@ while quiz.still_has_questions():
 
 print("You've ended the quiz.")
 print(f'Your final score is: {quiz.get_score()}/{len(question_data["questions"])}')
+
+score_details = input("Do you want a report for your score? (Yes/Enter): ").lower().strip()
+if score_details == "yes":
+    print(quiz.score_details())
+
